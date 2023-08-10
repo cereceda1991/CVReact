@@ -77,7 +77,7 @@
         {
             "title": "Verbify",
             "date": " 04-2023",
-            "description": "Es una simulación de plataforma de cursos de inglés que se destaca por su enfoque en el aprendizaje interactivo. En el frontend, se utilizamos tecnologías como React, Next.js y CSS para ofrecer una experiencia de usuario fluida y atractiva. En el backend, se emplearon Node.js y Express para la gestión eficiente de datos y la creación de API. Además, se integró MongoDB como base de datos, garantizando un almacenamiento escalable de la información.",
+            "description": "Es una simulación de plataforma de cursos de inglés que se destaca por su enfoque en el aprendizaje interactivo. En el frontend, utilizamos tecnologías como React, Next.js y CSS para ofrecer una experiencia de usuario fluida y atractiva. En el backend, se emplearon Node.js y Express para la gestión eficiente de datos y la creación de API. Además, se integró MongoDB como base de datos, garantizando un almacenamiento escalable de la información.",
             "link": "https://verbify.vercel.app/"
         },
         {
