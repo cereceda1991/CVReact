@@ -1,0 +1,105 @@
+{
+    "headerData": [
+        {
+            "name": "MAX",
+            "lastName": "CERECEDA",
+            "jobTitle": "DESARROLLADOR WEB FULL-STACK",
+            "email": "cereceda1991@gmail.com",
+            "phone": "(+51) 928 263 103",
+            "address": "Comas, Lima, Perú",
+            "website": "https://maxcereceda.netlify.app/",
+            "linkedin": "https://www.linkedin.com/in/maxcereceda/",
+            "github": "https://github.com/cereceda1991"
+        }
+    ],
+    "educationData": [
+        {
+            "title": "ACADEMLO",
+            "description": "Desarrollador Web Full-Stack",
+            "status": "Graduado",
+            "link1": "https://www.academlo.com/",
+            "link2": "https://certificates.academlo.com/es/credentials/maxgregoryoelcerecedacarbajal872543"
+        },
+        {
+            "title": "UNIVERSIDAD PRIVADA DEL NORTE",
+            "description": "Ingeniería Industrial ",
+            "status": "En Proceso",
+            "link1": "https://www.upn.edu.pe/",
+            "link2": "https://www.upn.edu.pe/"
+        }
+    ],
+    "languageData": [
+        {
+            "language": "Ingles",
+            "level": "B1"
+        },
+        {
+            "language": "Español",
+            "level": "Nativo"
+        }
+    ],
+    "skillsData": [
+        "TypeScript",
+        "JavaScript",
+        "PHP",
+        "Docker",
+        "MongoDB",
+        "MySQL",
+        "Bitbucket",
+        "Git",
+        "Jira",
+        "Scrum",
+        "React",
+        "Next Js",
+        "Vite",
+        "Axios",
+        "Redux",
+        "Tailwind",
+        "CSS",
+        "Node Js",
+        "Express",
+        "Laravel",
+        "PostgreSQL"       
+    ],
+    "aboutMeData": [
+        {
+            "title": "",
+            "description": "Soy un desarrollador web organizado, enfocado en superar expectativas y obtener resultados destacados. Siempre busco mejorar mis habilidades y estar al día en las últimas novedades de la industria."
+        }
+    ],
+    "projectsData": [
+        {
+            "title": "Aplicación de Clima",
+            "date": "11-2022",
+            "description": "Para desarrollar esta aplicación, utilicé tecnologías como React.js, React-Router, Axios y CSS. Estas herramientas me permitieron crear una interfaz de usuario atractiva y dinámica. También incorporé la geolocalización para acceder a una API meteorológica, brindando información precisa y actualizada sobre el clima según la ubicación del usuario.",
+            "link": "https://max-c-app-weather.netlify.app/"
+        },
+        {
+            "title": "Rick and Morty App",
+            "date": "12-2022",
+            "description": "Desarrollé esta aplicación utilizando React.js, Vite.js, React Router, Axios, CSS. Destacó la integración de la API de Rick and Morty para mostrar información relevante en la aplicación. Utilicé los hooks useState y useEffect para gestionar y presentar los datos eficientemente.",
+            "link": "https://rick-and-morty-app-maxc.netlify.app/"
+        },
+        {
+            "title": "Verbify",
+            "date": "03-2023",
+            "description": "Es una simulación de plataforma de cursos de inglés que se destaca por su enfoque en el aprendizaje interactivo. En el frontend, se utilizamos tecnologías como React, Next.js y CSS para ofrecer una experiencia de usuario fluida y atractiva. En el backend, se emplearon Node.js y Express para la gestión eficiente de datos y la creación de API. Además, se integró MongoDB como base de datos, garantizando un almacenamiento escalable de la información.",
+            "link": "https://verbify.vercel.app/"
+        },
+        {
+            "title": "CookMeal",
+            "date": "04-2023",
+            "description": "Una aplicación que utiliza tecnologías frontend como React, Tailwind y Next.js, combinadas con tecnologías backend como MongoDB, Mongoose, Express y Node.js. Su enfoque principal es la generación de recetas a través de la API de OpenAI, brindando una experiencia culinaria única y deliciosa.",
+            "link": "https://cookmeal.vercel.app/"
+        }
+    ],
+    "experiencieData": [
+        {
+            "title": "No Country Tech",
+            "date": "03-2023",
+            "position": "Full Stack Web Developer",
+            "description": "En NoCountry, soy Desarrollador Full-Stack en la industria Fintech. Trabajo con los stacks MERN, PERN y XAMPP, diseñando y desarrollando aplicaciones web. Colaboro con equipos multidisciplinarios para crear soluciones innovadoras y eficientes en respuesta a los requisitos del proyecto.",
+            "link": "https://Experiencia1.com"
+        }
+    ]
+}

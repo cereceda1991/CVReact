@@ -1,0 +1,12 @@
+.container_home {
+    margin-left: 300px;
+    max-width: 800px;
+
+    width: 210mm;
+    /* Ancho de una página A4 */
+    height: 297mm;
+    /* Alto de una página A4 */
+    margin: 1rem auto;
+    page-break-after: always;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

@@ -1,0 +1,81 @@
+.main_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+}
+
+.styles_titles {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.education_details {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 0;
+}
+
+.education_title {
+    margin-top: .5rem;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.container_left {
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: 12px;
+    background-color: #e6eaed;
+}
+
+.subtitle_skill {
+    margin: .3rem 0rem;
+    font-weight: 800;
+}
+
+.skill_item {
+    display: flex;
+    align-items: center;
+}
+
+.row_skill {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.container_right {
+    padding: 1rem;
+}
+
+.all_infos {
+    display: flex;
+    margin: .3rem 0rem;
+    font-size: 12px;
+    overflow-wrap: break-word;
+    justify-content: space-between;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.project_title {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 0;
+}
+
+.project_subtitle {
+    text-transform: uppercase;
+    border-bottom: solid 2px #000;
+    font-size: 14px;
+}
+
+.project_subtitle2 {
+    font-size: 14px;
+}
+
+
+.divider {
+    display: block;
+    height: 2px;
+    background-color: #000;
+    margin: 1rem 0;
+}

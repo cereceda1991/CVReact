@@ -1,0 +1,18 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 5rem;
+    bottom: 0;
+    padding: 1rem;
+    width: 300px;
+    background-color: #0008;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+    backdrop-filter: blur(8px);
+    max-height: calc(100vh - 5rem);
+    overflow-y: auto;
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
