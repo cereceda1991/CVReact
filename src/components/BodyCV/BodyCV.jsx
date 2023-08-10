@@ -20,7 +20,7 @@ const BodyCV = ({ info }) => (
         </ul>
       </div>
       <span className="divider"></span>
-      <p className="styles_titles">HABILIDADES</p>
+      <p className="styles_titles">COMPETENCIAS TÉCNICAS</p>
       <h1 className="subtitle_skill">Generales</h1>
       {info.skillsData.slice(0, 10).map((skill, index) => (
         <SkillItem key={index} skill={skill} />
