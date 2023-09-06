@@ -8,6 +8,10 @@ export const ColorProviderPropTypes = {
   children: PropTypes.node.isRequired,
 };
 
+export const LanguageProviderPropTypes = {
+  children: PropTypes.node.isRequired,
+};
+
 export const AboutMeItemPropTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,

@@ -1,13 +1,13 @@
-import './BodyCV.css';
-
-import AboutMeItem from '../AboutMeItem/AboutMeItem';
-import ProjectItem from '../ProjectItem/ProjectItem';
-import ExperiencieItem from '../ExperiencieItem/ExperiencieItem';
-import EducationItem from '../EducationItem/EducationItem';
-import LanguageItem from '../LanguageItem/LanguageItem';
-import SkillItem from '../SkillItem/SkillItem';
 import { BodyCVPropTypes } from '../../utils/prop-types';
 
+import AboutMeItem from '../AboutMeItem/AboutMeItem';
+import EducationItem from '../EducationItem/EducationItem';
+import ExperiencieItem from '../ExperiencieItem/ExperiencieItem';
+import LanguageItem from '../LanguageItem/LanguageItem';
+import ProjectItem from '../ProjectItem/ProjectItem';
+import SkillItem from '../SkillItem/SkillItem';
+
+import './BodyCV.css';
 const BodyCV = ({ data }) => {
   const {
     aboutMeData,

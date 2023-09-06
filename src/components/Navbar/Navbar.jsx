@@ -3,6 +3,7 @@ import SidebarToggleButton from '../SidebarToggleButton/SidebarToggleButton';
 
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
+import { useLanguageContext } from '../../context/LanguageContext';
 
 const Navbar = () => {
   // Asegúrate de definir certificateData y id
@@ -34,12 +35,25 @@ const Navbar = () => {
       },
     );
   };
+
+  const { changeLanguage } = useLanguageContext();
+
   return (
     <nav className="nav">
       <SidebarToggleButton />
       <ul className="nav__list">
         <li className="nav__item">
           <p className="nav__link">Mi Cv</p>
+        </li>
+        <li className="nav__item">
+          <p className="nav__link" onClick={() => changeLanguage('en')}>
+            English
+          </p>
+        </li>
+        <li className="nav__item">
+          <p className="nav__link" onClick={() => changeLanguage('es')}>
+            Español
+          </p>
         </li>
         <li className="nav__item">
           <p className="nav__link" onClick={exportToPDF}>
