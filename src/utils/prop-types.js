@@ -1,9 +1,5 @@
 import PropTypes from 'prop-types';
 
-export const AppProviderPropTypes = {
-  children: PropTypes.node.isRequired,
-};
-
 export const ColorProviderPropTypes = {
   children: PropTypes.node.isRequired,
 };
