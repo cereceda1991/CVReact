@@ -6,7 +6,6 @@ import './Home.css';
 import { useLanguageContext } from '../../context/LanguageContext';
 
 const Home = () => {
-
   const { language } = useLanguageContext();
 
   const getDataByLanguage = () => {
@@ -20,7 +19,6 @@ const Home = () => {
         return dataEn;
     }
   };
-
 
   return (
     <div className="container_home" id="certificate">
