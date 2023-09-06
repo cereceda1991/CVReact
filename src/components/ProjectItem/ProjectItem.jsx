@@ -5,12 +5,12 @@ const ProjectItem = ({ title, date, description, link }) => {
     <div>
       <li>
         <div className="project_title">
-          <h3 className="project_subtitle">
+          <h5 className="body_subtitle">
             <a href={link} target="_blank" rel="noopener noreferrer">
               {title}
             </a>
-          </h3>
-          <h3>|{date}</h3>
+          </h5>
+          <h5>|{date}</h5>
         </div>
         <p className="all_infos">{description}</p>
       </li>

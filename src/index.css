@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --line-color: #000;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
 li {
   list-style: none;
   margin-left: 0;
+  font-size: 12px;
 }
 
 h1,
@@ -21,6 +23,36 @@ h3,
 h4,
 p {
   margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: .3rem 0rem;
+}
+
+p {
+  font-size: 12px;
 }
 
 a {

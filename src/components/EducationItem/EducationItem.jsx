@@ -4,7 +4,7 @@ const EducationItem = ({ title, description, link1, link2, status }) => {
   return (
     <div className="education">
       <a href={link1} target="_blank" rel="noopener noreferrer">
-        <p className="education_title">{title}</p>
+        <h5 className='body_subtitle'>{title}</h5>
       </a>
       <div className="education_details">
         <p>{description}</p>

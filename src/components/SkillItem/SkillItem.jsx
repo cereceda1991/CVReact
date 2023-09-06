@@ -2,15 +2,15 @@ import { SkillItemPropTypes } from '../../utils/prop-types';
 
 const SkillItem = ({ category, skills }) => {
   return (
-    <div className="skill_category">
-      <h3>{category}</h3>
-      <ul className="skill_list">
+    <div>
+      <h5>{category}</h5>
+      <ul>
         {skills.map((skill, index) => (
-          <li key={index} className="skill_item">
+          <li key={index}>
             <span className="row_skill">
               <i className="bx bxs-checkbox-checked"></i>
             </span>
-            <span className="skill-name">{skill}</span>
+            <span>{skill}</span>
           </li>
         ))}
       </ul>

@@ -26,9 +26,9 @@ const BodyCV = ({ data }) => {
           <div>
             {educationData.map((educationCategory, index) => (
               <div key={index}>
-                <h1 className="styles_titles">
+                <h4 >
                   {educationCategory.headerTitle}
-                </h1>
+                </h4>
                 <div>
                   {educationCategory.educations.map((education) => (
                     <EducationItem key={education.id} {...education} />
@@ -43,7 +43,7 @@ const BodyCV = ({ data }) => {
           <div className="container_skills">
             {skillsData.map((category, index) => (
               <div key={index}>
-                <h1 className="styles_titles">{category.headerTitle}</h1>
+                <h4 >{category.headerTitle}</h4>
                 <ul>
                   {category.categories.map(
                     ({ categoryTitle, skills }, subIndex) => (
@@ -61,7 +61,7 @@ const BodyCV = ({ data }) => {
         </section>
         <section>
           <span className="divider"></span>
-          <h1 className="styles_titles">{languageData[0].headerTitle}</h1>
+          <h4 >{languageData[0].headerTitle}</h4>
           <ul>
             {languageData[0].languages.map(({ language, level }) => (
               <LanguageItem key={language} language={language} level={level} />
@@ -80,7 +80,7 @@ const BodyCV = ({ data }) => {
           </div>
         </section>
         <section>
-          <h1 className="styles_titles">{projectsData[0].headerTitle}</h1>
+          <h4 >{projectsData[0].headerTitle}</h4>
           <div className="container_projects">
             <ul>
               {projectsData[0].projects.map((project) => (
@@ -90,7 +90,7 @@ const BodyCV = ({ data }) => {
           </div>
         </section>
         <section>
-          <h1 className="styles_titles">{experienceData[0].headerTitle}</h1>
+          <h4 >{experienceData[0].headerTitle}</h4>
           <div className="container_projects">
             <ul>
               {experienceData[0].experiencies.map((experience) => (

@@ -16,9 +16,9 @@ const HeaderCv = ({ data }) => {
         <span></span>
       </div>
       <div className="info_container">
-        <p className="info_name">{headerData.name}</p>
-        <h1 className="info_lastName">{headerData.lastName}</h1>
-        <p className="job_title">{headerData.jobTitle}</p>
+        <h2>{headerData.name}</h2>
+        <h1>{headerData.lastName}</h1>
+        <h3>{headerData.jobTitle}</h3>
       </div>
       <div className="contact_info" style={{ backgroundColor: selectedColor }}>
         <div>

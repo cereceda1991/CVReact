@@ -1,49 +1,46 @@
 .main_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 1rem;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0rem 2.5rem;
+    height: calc(297mm - 250px);
 }
 
-.styles_titles {
-    font-weight: 800;
-    font-size: 14px;
+.container_left {
+    padding: 0rem 1rem;
+    background-color: #e6eaed;
+    height: 100%;
+    width: 50%;
+}
+
+.container_right {
+    padding: 1rem;
+    width: 50%;
+    height: 100%;
 }
 
 .education_details {
     display: flex;
     justify-content: space-between;
-    margin: .5rem 0;
+    margin: .3rem 0;
 }
 
-.education_title {
-    margin-top: .5rem;
-    text-decoration: underline;
-    font-weight: 800;
-}
-
-.container_left {
-    padding: 1rem 1rem 0rem 1rem;
-    font-size: 12px;
-    background-color: #e6eaed;
-}
-
-.subtitle_skill {
-    margin: .3rem 0rem;
-    font-weight: 800;
-}
-
-.skill_item {
+.project_title {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+}
+
+.body_subtitle {
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--line-color);
+    width: max-content;
 }
 
 .row_skill {
-    font-size: 1.1rem;
+    display: inline-flex;
+    justify-content: flex-start;
     text-align: center;
-}
-
-.container_right {
-    padding: 1rem;
+    font-size: 1.1rem;
 }
 
 .all_infos {
@@ -56,26 +53,9 @@
     hyphens: auto;
 }
 
-.project_title {
-    display: flex;
-    justify-content: space-between;
-    margin: .5rem 0;
-}
-
-.project_subtitle {
-    text-transform: uppercase;
-    border-bottom: solid 2px #000;
-    font-size: 14px;
-}
-
-.project_subtitle2 {
-    font-size: 14px;
-}
-
-
 .divider {
     display: block;
     height: 2px;
-    background-color: #000;
-    margin: 1rem 0;
+    margin: .5rem 0;
+    background-color: var(--line-color);
 }
