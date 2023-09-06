@@ -1,3 +1,5 @@
+import { SkillItemPropTypes } from '../../utils/prop-types';
+
 const SkillItem = ({ category, skills }) => {
   return (
     <div className="skill_category">
@@ -15,5 +17,7 @@ const SkillItem = ({ category, skills }) => {
     </div>
   );
 };
+
+SkillItem.propTypes = SkillItemPropTypes;
 
 export default SkillItem;

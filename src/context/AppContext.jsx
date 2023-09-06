@@ -1,4 +1,5 @@
 import { createContext, useState } from 'react';
+import { AppProviderPropTypes } from '../utils/prop-types';
 
 export const AppContext = createContext();
 
@@ -22,3 +23,5 @@ export const AppProvider = ({ children }) => {
     </AppContext.Provider>
   );
 };
+
+AppProvider.propTypes = AppProviderPropTypes;

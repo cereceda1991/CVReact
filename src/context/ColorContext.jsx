@@ -1,4 +1,5 @@
 import { createContext, useState } from 'react';
+import { ColorProviderPropTypes } from '../utils/prop-types';
 
 export const ColorContext = createContext();
 
@@ -15,3 +16,5 @@ export const ColorProvider = ({ children }) => {
     </ColorContext.Provider>
   );
 };
+
+ColorProvider.propTypes = ColorProviderPropTypes;

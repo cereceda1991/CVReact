@@ -1,4 +1,4 @@
-import { AboutMeItemPropTypes } from "../../utils/prop-types";
+import { AboutMeItemPropTypes } from '../../utils/prop-types';
 
 const AboutMeItem = ({ title, description }) => (
   <li>

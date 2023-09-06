@@ -104,6 +104,6 @@ const BodyCV = ({ data }) => {
   );
 };
 
-BodyCV.propTypes = BodyCVPropTypes
+BodyCV.propTypes = BodyCVPropTypes;
 
 export default BodyCV;

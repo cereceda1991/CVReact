@@ -11,7 +11,7 @@ const App = () => {
     <section>
       <ColorProvider>
         <Navbar />
-        <Sidebar />
+        <Sidebar isOpen={false} />
         <SidebarToggleButton />
         <div className="container_cv">
           <Routes>

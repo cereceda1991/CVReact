@@ -1,3 +1,5 @@
+import { LanguageItemPropTypes } from '../../utils/prop-types';
+
 const LanguageItem = ({ language, level }) => {
   return (
     <div className="skill_item">
@@ -9,5 +11,7 @@ const LanguageItem = ({ language, level }) => {
     </div>
   );
 };
+
+LanguageItem.propTypes = LanguageItemPropTypes;
 
 export default LanguageItem;

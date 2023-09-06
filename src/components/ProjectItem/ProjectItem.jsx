@@ -1,10 +1,12 @@
+import { ProjectItemPropTypes } from '../../utils/prop-types';
+
 const ProjectItem = ({ title, date, description, link }) => {
   return (
     <div>
       <li>
         <div className="project_title">
           <h3 className="project_subtitle">
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               {title}
             </a>
           </h3>
@@ -15,5 +17,7 @@ const ProjectItem = ({ title, date, description, link }) => {
     </div>
   );
 };
+
+ProjectItem.propTypes = ProjectItemPropTypes;
 
 export default ProjectItem;

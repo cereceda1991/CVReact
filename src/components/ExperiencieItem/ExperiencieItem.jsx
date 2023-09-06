@@ -1,3 +1,5 @@
+import { ExperiencieItemPropTypes } from '../../utils/prop-types';
+
 const ExperiencieItem = ({ title, date, description, link, position }) => (
   <li>
     <div className="project_title">
@@ -10,5 +12,7 @@ const ExperiencieItem = ({ title, date, description, link, position }) => (
     <p className="all_infos">{description}</p>
   </li>
 );
+
+ExperiencieItem.propTypes = ExperiencieItemPropTypes;
 
 export default ExperiencieItem;

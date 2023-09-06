@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './Navbar.css';
 import SidebarToggleButton from '../SidebarToggleButton/SidebarToggleButton';
 

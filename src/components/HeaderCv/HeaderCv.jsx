@@ -1,6 +1,7 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { ColorContext } from '../../context/ColorContext';
 import './HeaderCv.css';
+import { HeaderCvPropTypes } from '../../utils/prop-types';
 
 const HeaderCv = ({ data }) => {
   const headerData = data.headerData[0];
@@ -72,5 +73,7 @@ const HeaderCv = ({ data }) => {
     </section>
   );
 };
+
+HeaderCv.propTypes = HeaderCvPropTypes;
 
 export default HeaderCv;
