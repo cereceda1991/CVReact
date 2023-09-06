@@ -17,7 +17,7 @@ This is an interactive Curriculum Vitae project created with React that allows y
 
  ```bash
     git clone https://github.com/cereceda1991/portfolio-react.git
-   ```
+```
 
 **2. Install Dependencies:**
 
@@ -68,7 +68,7 @@ Este es un proyecto de Curriculum Vitae interactivo creado con React que te perm
 1. **Clonar el Repositorio:**
 
    ```bash
-   git clone https://github.com/cereceda1991/portfolio-react.git
+    git clone https://github.com/cereceda1991/portfolio-react.git
 
    ```
 
