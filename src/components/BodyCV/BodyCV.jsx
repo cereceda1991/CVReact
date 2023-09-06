@@ -1,73 +1,106 @@
-import React from "react";
 import "./BodyCV.css";
-import EducationItem from "../EducationItem/EducationItem";
-import SkillItem from "../SkillItem/SkillItem";
-import LanguageItem from "../LanguageItem/LanguageItem";
+
 import AboutMeItem from "../AboutMeItem/AboutMeItem";
-import ExperiencieItem from "../ExperiencieItem/ExperiencieItem";
 import ProjectItem from "../ProjectItem/ProjectItem";
+import ExperiencieItem from "../ExperiencieItem/ExperiencieItem";
+import EducationItem from "../EducationItem/EducationItem";
+import LanguageItem from "../LanguageItem/LanguageItem";
+import SkillItem from "../SkillItem/SkillItem";
 
-const BodyCV = ({ info }) => (
-  <main className="main_container">
-    <section className="container_left">
-      <div className="container_education">
-        <span className="divider"></span>
-        <h1 className="styles_titles">EDUCACIÓN</h1>
-        <ul>
-          {info.educationData.map((education, index) => (
-            <EducationItem key={index} {...education} />
-          ))}
-        </ul>
-      </div>
-      <span className="divider"></span>
-      <p className="styles_titles">COMPETENCIAS TÉCNICAS</p>
-      <h1 className="subtitle_skill">Generales</h1>
-      {info.skillsData.slice(0, 10).map((skill, index) => (
-        <SkillItem key={index} skill={skill} />
-      ))}
-      <h1 className="subtitle_skill">Front-End</h1>
-      {info.skillsData.slice(10, 17).map((skill, index) => (
-        <SkillItem key={index} skill={skill} />
-      ))}
-      <h1 className="subtitle_skill">Back-End</h1>
-      {info.skillsData.slice(17).map((skill, index) => (
-        <SkillItem key={index} skill={skill} />
-      ))}
-      <span className="divider"></span>
-      <h1 className="styles_titles">IDIOMAS</h1>
-      <ul>
-        {info.languageData.map((education, index) => (
-          <LanguageItem key={index} {...education} />
-        ))}
-      </ul>
-    </section>
+const BodyCV = ({ data }) => {
+  const {
+    aboutMeData,
+    projectsData,
+    experienceData, // Cambiado para reflejar la nueva estructura
+    skillsData,
+    educationData,
+    languageData,
+  } = data;
 
-    <section className="container_right">
-      <h1 className="styles_titles">SOBRE MI</h1>
-      <div className="container_projects">
-        <ul>
-          {info.aboutMeData.map((about, index) => (
-            <AboutMeItem key={index} {...about} />
-          ))}
-        </ul>
-      </div>
-      <h1 className="styles_titles">PRINCIPALES PROYECTOS</h1>
-      <div className="container_projects">
-        <ul>
-          {info.projectsData.map((project, index) => (
-            <ProjectItem key={index} {...project} />
-          ))}
-        </ul>
-      </div>
-      <h1 className="styles_titles">EXPERIENCIA LABORAL</h1>
-      <div className="container_projects">
-        <ul>
-          {info.experiencieData.map((experiencie, index) => (
-            <ExperiencieItem key={index} {...experiencie} />
-          ))}
-        </ul>
-      </div>
-    </section>
-  </main>
-);
+  return (
+    <div className="main_container">
+      <section className="container_left">
+        <section>
+          <span className="divider"></span>
+          <div>
+            {educationData.map((educationCategory, index) => (
+              <div key={index}>
+                <h1 className="styles_titles">
+                  {educationCategory.headerTitle}
+                </h1>
+                <div>
+                  {educationCategory.educations.map((education) => (
+                    <EducationItem key={education.id} {...education} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+        <section>
+          <span className="divider"></span>
+          <div className="container_skills">
+            {skillsData.map((category, index) => (
+              <div key={index}>
+                <h1 className="styles_titles">{category.headerTitle}</h1>
+                <ul>
+                  {category.categories.map(
+                    ({ categoryTitle, skills }, subIndex) => (
+                      <SkillItem
+                        key={subIndex}
+                        category={categoryTitle}
+                        skills={skills}
+                      />
+                    )
+                  )}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+        <section>
+          <span className="divider"></span>
+          <h1 className="styles_titles">{languageData[0].headerTitle}</h1>
+          <ul>
+            {languageData[0].languages.map(({ language, level }) => (
+              <LanguageItem key={language} language={language} level={level} />
+            ))}
+          </ul>
+        </section>
+      </section>
+      <section className="container_right">
+        <section>
+          <div className="container_projects">
+            <ul>
+              {aboutMeData.map((about, index) => (
+                <AboutMeItem key={index} {...about} />
+              ))}
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h1 className="styles_titles">{projectsData[0].headerTitle}</h1>
+          <div className="container_projects">
+            <ul>
+              {projectsData[0].projects.map((project) => (
+                <ProjectItem key={project.id} {...project} />
+              ))}
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h1 className="styles_titles">{experienceData[0].headerTitle}</h1>
+          <div className="container_projects">
+            <ul>
+              {experienceData[0].experiencies.map((experience) => (
+                <ExperiencieItem key={experience.id} {...experience} />
+              ))}
+            </ul>
+          </div>
+        </section>
+      </section>
+    </div>
+  );
+};
+
 export default BodyCV;

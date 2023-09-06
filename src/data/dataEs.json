@@ -1,0 +1,174 @@
+{
+    "headerData": [
+        {
+            "name": "MAX",
+            "lastName": "CERECEDA",
+            "jobTitle": "DESARROLLADOR WEB FULL-STACK",
+            "email": "cereceda1991@gmail.com",
+            "phone": "(+51) 928 263 103",
+            "address": "Comas, Lima, Perú",
+            "website": "https://maxcereceda.netlify.app/",
+            "linkedin": "https://www.linkedin.com/in/maxcereceda/",
+            "github": "https://github.com/cereceda1991"
+        }
+    ],
+    "educationData": [
+        {
+            "headerTitle": "EDUCACIÓN",
+            "educations": [
+                {
+                    "id": "1",
+                    "title": "ACADEMLO",
+                    "description": "Desarrollador Web Full-Stack",
+                    "status": "Graduado",
+                    "link1": "https://www.academlo.com/",
+                    "link2": "https://certificates.academlo.com/es/credentials/maxgregoryoelcerecedacarbajal872543"
+                },
+                {
+                    "id": "2",
+                    "title": "UNIVERSIDAD PRIVADA DEL NORTE",
+                    "description": "Ingeniería Industrial",
+                    "status": "En Progreso",
+                    "link1": "https://www.upn.edu.pe/",
+                    "link2": "https://www.upn.edu.pe/"
+                }
+            ]
+        }
+    ],
+    "languageData": [
+        {
+            "headerTitle": "IDIOMAS",
+            "languages": [
+                {
+                    "id": "1",
+                    "language": "Inglés",
+                    "level": "B1"
+                },
+                {
+                    "id": "2",
+                    "language": "Español",
+                    "level": "Nativo"
+                }
+            ]
+        }
+    ],
+    "skillsData": [
+        {
+            "headerTitle": "HABILIDADES TÉCNICAS",
+            "categories": [
+                {
+                    "categoryTitle": "Lenguajes de Programación",
+                    "skills": [
+                        "JavaScript",
+                        "TypeScript",
+                        "PHP"
+                    ]
+                },
+                {
+                    "categoryTitle": "Desarrollo Frontend",
+                    "skills": [
+                        "React",
+                        "Next.js",
+                        "Vite",
+                        "Axios",
+                        "Redux"
+                    ]
+                },
+                {
+                    "categoryTitle": "Desarrollo Backend",
+                    "skills": [
+                        "Node.js",
+                        "Express",
+                        "Laravel"
+                    ]
+                },
+                {
+                    "categoryTitle": "DevOps y Herramientas",
+                    "skills": [
+                        "Docker",
+                        "Bitbucket",
+                        "Git"
+                    ]
+                },
+                {
+                    "categoryTitle": "Bases de Datos",
+                    "skills": [
+                        "PostgreSQL",
+                        "MongoDB",
+                        "MySQL"
+                    ]
+                },
+                {
+                    "categoryTitle": "Gestión de Proyectos",
+                    "skills": [
+                        "Jira",
+                        "Scrum"
+                    ]
+                },
+                {
+                    "categoryTitle": "UI/UX",
+                    "skills": [
+                        "Tailwind",
+                        "CSS"
+                    ]
+                }
+            ]
+        }
+    ],
+    "aboutMeData": [
+        {
+            "title": "SOBRE MÍ",
+            "description": "Soy un desarrollador web organizado enfocado en superar expectativas y lograr resultados sobresalientes. Siempre busco mejorar mis habilidades y mantenerme al día con las últimas tendencias de la industria."
+        }
+    ],
+    "projectsData": [
+        {
+            "headerTitle": "PROYECTOS PRINCIPALES",
+            "projects": [
+                {
+                    "id": 1,
+                    "title": "Inventra",
+                    "date": "2023-08",
+                    "description": "Esta aplicación de gestión de inventario es completa y está construida utilizando React en el frontend, Laravel en el backend y una base de datos no relacional, MongoDB. Su objetivo principal es mantener un control preciso de los niveles de stock e inventario para prevenir pérdidas.",
+                    "link": "https://inventra-pe.vercel.app/"
+                },
+                {
+                    "id": 2,
+                    "title": "CookMeal",
+                    "date": "2023-05",
+                    "description": "Una aplicación que utiliza tecnologías frontend como React, Tailwind y Next.js, combinadas con tecnologías backend como MongoDB, Mongoose, Express y Node.js. Su enfoque principal es la generación de recetas a través de la API de OpenAI, proporcionando una experiencia culinaria única y deliciosa.",
+                    "link": "https://cookmeal.vercel.app/"
+                },
+                {
+                    "id": 3,
+                    "title": "Verbify",
+                    "date": "2023-04",
+                    "description": "Es una plataforma simulada de cursos de inglés conocida por su énfasis en el aprendizaje interactivo. En el frontend, utilizamos tecnologías como React, Next.js y CSS para ofrecer una experiencia de usuario fluida y atractiva. En el backend, se utilizó Node.js y Express para una gestión eficiente de datos y la creación de API. Además, se integró MongoDB como base de datos, garantizando el almacenamiento escalable de información.",
+                    "link": "https://verbify.vercel.app/"
+                },
+                {
+                    "id": 4,
+                    "title": "Rick and Morty App",
+                    "date": "2023-02",
+                    "description": "Desarrollé esta aplicación utilizando React.js, Vite.js, React Router, Axios y CSS. Destaca la integración de la API de Rick and Morty para mostrar información relevante en la aplicación. Utilicé los hooks useState y useEffect para gestionar y presentar eficientemente los datos.",
+                    "link": "https://rick-and-morty-app-maxc.netlify.app/"
+                }
+            ]
+        }
+    ],
+    "experienceData": [
+        {
+            "headerTitle": "EXPERIENCIA LABORAL",
+            "experiencias": [
+                {
+                    "id": 1,
+                    "title": "No Country Tech",
+                    "date": "2023-03 - Presente",
+                    "position": "Desarrollador Web Full-Stack",
+                    "description": "En No Country Tech, trabajo como Desarrollador Web Full-Stack en la industria fintech. Mis responsabilidades incluyen el diseño y desarrollo de aplicaciones web utilizando pilas MERN, PERN y XAMPP. Colaboro con equipos multifuncionales para crear soluciones innovadoras y eficientes que cumplan con los requisitos del proyecto.",
+                    "link": "https://Experiencia1.com"
+                }
+            ]
+        }
+    ]
+}

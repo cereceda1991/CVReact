@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import { ColorContext } from "../../context/ColorContext";
 import "./HeaderCv.css";
 
-const HeaderCv = ({ info }) => {
-  const headerData = info[0];
+const HeaderCv = ({ data }) => {
+  const headerData = data.headerData[0];
   const { selectedColor } = useContext(ColorContext);
 
   return (

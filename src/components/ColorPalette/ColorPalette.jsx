@@ -6,10 +6,9 @@ const ColorPalette = () => {
   const { handleColorChange } = useContext(ColorContext);
 
   return (
-    <div>
-      <h2>Color Palette</h2>
+    <main>
       <SketchPicker onChange={(color) => handleColorChange(color.hex)} />
-    </div>
+    </main>
   );
 };
 
