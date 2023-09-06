@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
-import { ColorContext } from "../../context/ColorContext";
-import "./HeaderCv.css";
+import React, { useContext } from 'react';
+import { ColorContext } from '../../context/ColorContext';
+import './HeaderCv.css';
 
 const HeaderCv = ({ data }) => {
   const headerData = data.headerData[0];
@@ -15,15 +15,9 @@ const HeaderCv = ({ data }) => {
         <span></span>
       </div>
       <div className="info_container">
-        <p className="info_name" >
-          {headerData.name}
-        </p>
-        <h1 className="info_lastName" >
-          {headerData.lastName}
-        </h1>
-        <p className="job_title">
-          {headerData.jobTitle}
-        </p>
+        <p className="info_name">{headerData.name}</p>
+        <h1 className="info_lastName">{headerData.lastName}</h1>
+        <p className="job_title">{headerData.jobTitle}</p>
       </div>
       <div className="contact_info" style={{ backgroundColor: selectedColor }}>
         <div>

@@ -1,10 +1,10 @@
-import "./App.css";
-import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-import Home from "./pages/Home/Home";
-import Sidebar from "./components/Sidebar/Sidebar";
-import SidebarToggleButton from "./components/SidebarToggleButton/SidebarToggleButton";
-import { ColorProvider } from "./context/ColorContext";
+import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Home from './pages/Home/Home';
+import Sidebar from './components/Sidebar/Sidebar';
+import SidebarToggleButton from './components/SidebarToggleButton/SidebarToggleButton';
+import { ColorProvider } from './context/ColorContext';
 
 const App = () => {
   return (

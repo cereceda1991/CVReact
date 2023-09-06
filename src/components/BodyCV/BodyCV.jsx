@@ -1,17 +1,18 @@
-import "./BodyCV.css";
+import './BodyCV.css';
 
-import AboutMeItem from "../AboutMeItem/AboutMeItem";
-import ProjectItem from "../ProjectItem/ProjectItem";
-import ExperiencieItem from "../ExperiencieItem/ExperiencieItem";
-import EducationItem from "../EducationItem/EducationItem";
-import LanguageItem from "../LanguageItem/LanguageItem";
-import SkillItem from "../SkillItem/SkillItem";
+import AboutMeItem from '../AboutMeItem/AboutMeItem';
+import ProjectItem from '../ProjectItem/ProjectItem';
+import ExperiencieItem from '../ExperiencieItem/ExperiencieItem';
+import EducationItem from '../EducationItem/EducationItem';
+import LanguageItem from '../LanguageItem/LanguageItem';
+import SkillItem from '../SkillItem/SkillItem';
+import { BodyCVPropTypes } from '../../utils/prop-types';
 
 const BodyCV = ({ data }) => {
   const {
     aboutMeData,
     projectsData,
-    experienceData, // Cambiado para reflejar la nueva estructura
+    experienceData,
     skillsData,
     educationData,
     languageData,
@@ -51,7 +52,7 @@ const BodyCV = ({ data }) => {
                         category={categoryTitle}
                         skills={skills}
                       />
-                    )
+                    ),
                   )}
                 </ul>
               </div>
@@ -102,5 +103,7 @@ const BodyCV = ({ data }) => {
     </div>
   );
 };
+
+BodyCV.propTypes = BodyCVPropTypes
 
 export default BodyCV;

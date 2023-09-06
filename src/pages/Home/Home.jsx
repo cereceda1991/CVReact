@@ -1,7 +1,7 @@
-import BodyCV from "../../components/BodyCV/BodyCV";
-import HeaderCv from "../../components/HeaderCv/HeaderCv";
-import dataCv from "../../data/dataEn.json";
-import "./Home.css";
+import BodyCV from '../../components/BodyCV/BodyCV';
+import HeaderCv from '../../components/HeaderCv/HeaderCv';
+import dataCv from '../../data/dataEn.json';
+import './Home.css';
 
 const Home = () => {
   return (

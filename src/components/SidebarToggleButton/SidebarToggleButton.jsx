@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./SidebarToggleButton.css";
-import Sidebar from "../Sidebar/Sidebar";
+import { useState } from 'react';
+import './SidebarToggleButton.css';
+import Sidebar from '../Sidebar/Sidebar';
 
 const SidebarToggleButton = () => {
   const [isOpen, setIsOpen] = useState(false);

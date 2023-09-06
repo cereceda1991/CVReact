@@ -1,48 +1,51 @@
-import { Link } from "react-router-dom";
-import "./Navbar.css";
-import SidebarToggleButton from "../SidebarToggleButton/SidebarToggleButton";
+import { Link } from 'react-router-dom';
+import './Navbar.css';
+import SidebarToggleButton from '../SidebarToggleButton/SidebarToggleButton';
 
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
-
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
 
 const Navbar = () => {
-    // Asegúrate de definir certificateData y id
-    const certificateData = { studentSelected: { name: "Max", lastname: "Cereceda" } };
-    const id = 47126753;
-  
-    const exportToPDF = () => {
-      const element = document.getElementById("certificate");
-  
-      html2canvas(element, { scale: 3, useCORS: true, allowTaint: true }).then(canvas => {
-        const imgData = canvas.toDataURL("image/jpeg", 1.0);
-  
-        const pdfWidth = 210; 
-        const pdfHeight = 297; 
-  
+  // Asegúrate de definir certificateData y id
+  const certificateData = {
+    studentSelected: { name: 'Max', lastname: 'Cereceda' },
+  };
+  const id = 47126753;
+
+  const exportToPDF = () => {
+    const element = document.getElementById('certificate');
+
+    html2canvas(element, { scale: 3, useCORS: true, allowTaint: true }).then(
+      (canvas) => {
+        const imgData = canvas.toDataURL('image/jpeg', 1.0);
+
+        const pdfWidth = 210;
+        const pdfHeight = 297;
+
         const pdf = new jsPDF({
-          orientation: "portrait",
-          unit: "mm",
-          format: [pdfWidth, pdfHeight]
+          orientation: 'portrait',
+          unit: 'mm',
+          format: [pdfWidth, pdfHeight],
         });
-  
-        pdf.addImage(imgData, "JPEG", 0, 0, pdfWidth, pdfHeight);
+
+        pdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, pdfHeight);
         pdf.save(
-          `CV${certificateData.studentSelected.name}${certificateData.studentSelected.lastname}ES-${id}.pdf`
+          `CV${certificateData.studentSelected.name}${certificateData.studentSelected.lastname}ES-${id}.pdf`,
         );
-      });
-    };
+      },
+    );
+  };
   return (
     <nav className="nav">
       <SidebarToggleButton />
       <ul className="nav__list">
         <li className="nav__item">
-          <p className="nav__link">
-          Mi Cv
-          </p>
+          <p className="nav__link">Mi Cv</p>
         </li>
         <li className="nav__item">
-        <p className="nav__link" onClick={exportToPDF}>Exportar a PDF</p>
+          <p className="nav__link" onClick={exportToPDF}>
+            Exportar a PDF
+          </p>
         </li>
       </ul>
     </nav>

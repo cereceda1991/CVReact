@@ -7,7 +7,7 @@ const LanguageItem = ({ language, level }) => {
       <span className="skill-name">{language}:</span>
       <span>{level}</span>
     </div>
-  )
-}
+  );
+};
 
-export default LanguageItem
+export default LanguageItem;

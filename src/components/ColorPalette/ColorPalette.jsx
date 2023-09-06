@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
-import { SketchPicker } from "react-color";
-import { ColorContext } from "../../context/ColorContext";
+import { useContext } from 'react';
+import { SketchPicker } from 'react-color';
+import { ColorContext } from '../../context/ColorContext';
 
 const ColorPalette = () => {
   const { handleColorChange } = useContext(ColorContext);
