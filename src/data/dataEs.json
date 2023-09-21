@@ -134,25 +134,26 @@
                 },
                 {
                     "id": 2,
+                    "title": "CertifyMe",
+                    "date": "2023-06",
+                    "description": "Esta es una aplicación que se centra en la generación masiva de certificados. Utiliza tecnologías como React en el frontend, Laravel en el backend y una base de datos MongoDB.El objetivo principal de este proyecto es automatizar y simplificar el proceso de generación de certificados en gran cantidad.",
+                    "link": "https://certifyme-s901.netlify.app/"
+                },
+                {
+                    "id": 3,
                     "title": "CookMeal",
                     "date": "2023-05",
                     "description": "Una aplicación que utiliza tecnologías frontend como React, Tailwind y Next.js, combinadas con tecnologías backend como MongoDB, Mongoose, Express y Node.js. Su enfoque principal es la generación de recetas a través de la API de OpenAI, proporcionando una experiencia culinaria única y deliciosa.",
                     "link": "https://cookmeal.vercel.app/"
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "title": "Verbify",
                     "date": "2023-04",
                     "description": "Es una plataforma simulada de cursos de inglés conocida por su énfasis en el aprendizaje interactivo. En el frontend, utilizamos tecnologías como React, Next.js y CSS para ofrecer una experiencia de usuario fluida y atractiva. En el backend, se utilizó Node.js y Express para una gestión eficiente de datos y la creación de API. Además, se integró MongoDB como base de datos, garantizando el almacenamiento escalable de información.",
                     "link": "https://verbify.vercel.app/"
-                },
-                {
-                    "id": 4,
-                    "title": "Rick and Morty App",
-                    "date": "2023-02",
-                    "description": "Desarrollé esta aplicación utilizando React.js, Vite.js, React Router, Axios y CSS. Destaca la integración de la API de Rick and Morty para mostrar información relevante en la aplicación. Utilicé los hooks useState y useEffect para gestionar y presentar eficientemente los datos.",
-                    "link": "https://rick-and-morty-app-maxc.netlify.app/"
                 }
+                
             ]
         }
     ],

@@ -65,14 +65,13 @@ a:visited {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0003;
+  background: #0002;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #000;
-  border-radius: 0.5rem;
+  background: #0007;
 }
