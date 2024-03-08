@@ -7,7 +7,7 @@
             "email": "cereceda1991@gmail.com",
             "phone": "(+51) 928 263 103",
             "address": "Comas, Lima, Peru",
-            "website": "https://maxcereceda.netlify.app/",
+            "website": "https://max-cereceda.vercel.app/",
             "linkedin": "https://www.linkedin.com/in/maxcereceda/",
             "github": "https://github.com/cereceda1991"
         }
@@ -27,7 +27,7 @@
                 {
                     "id": "2",
                     "title": "UNIVERSIDAD PRIVADA DEL NORTE",
-                    "description": "Industrial Engineering",
+                    "description": "Systems Engineer",
                     "status": "In Progress",
                     "link1": "https://www.upn.edu.pe/",
                     "link2": "https://www.upn.edu.pe/"
